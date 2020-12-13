@@ -1,0 +1,698 @@
+/* Ajustes generales */
+
+.clip-footer{
+  clip-path: polygon(50% 22%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
+}
+
+
+
+/* animacion */
+
+.animation {
+  -webkit-clip-path: polygon(50% 22%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
+  clip-path: polygon(50% 22%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
+  animation: 5s poly infinite alternate ease-in-out;
+  margin: 1em auto;
+  display: block;
+}
+
+@keyframes poly {
+  from {
+      -webkit-clip-path: polygon(50% 22%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
+      clip-path: polygon(50% 22%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
+  }
+  
+  to {
+    -webkit-clip-path: polygon(50% 22%, 80% 0, 80% 80%, 50% 100%, 20% 80%, 20% 0);
+    clip-path: polygon(50% 22%, 80% 0, 80% 80%, 50% 100%, 20% 80%, 20% 0);
+  }
+}
+
+/* Animación end */
+
+html{
+
+  box-sizing: border-box ;
+
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.prueba {
+  transition: transform 1s
+}
+
+body{
+  background-color: rgb(245, 246, 240);
+  font-family: 'Merriweather', serif;
+  margin: 0 auto;
+}
+main{
+  color: #020F14;
+}
+
+a{
+  text-decoration: none;
+}
+
+menu{
+  
+  
+  list-style-type: none;
+  padding: 10px;
+  border: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.header-column{
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  position: relative;
+}
+
+
+
+/* Header */
+
+header{
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-span{
+  padding-left: 10px ;
+}
+
+.header-img{
+  width: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.button-login{
+  background-color: #FF5037;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+ 
+ 
+}
+.login-absolute{
+  position: relative;
+  top: -170px;
+ 
+}
+
+menu a{
+  color: #020F14;
+}
+
+menu a:hover{
+  color: rgba(2, 15, 20, 0.5);
+}
+
+.header_club{
+  font-family: 'Merriweather';
+  font-size: 2em;
+  font-weight: 700;
+  color: #020F14;
+}
+
+.header_lector{
+  font-family: 'Merriweather';
+  font-size: 2em;
+  font-weight: 400;
+  font-style: italic;
+  color: #020F14;
+}
+
+.margin-top-responsive{
+
+  padding-top: 50px;
+}
+
+/* Index */
+
+.index-img{
+  width: 200px;
+}
+
+/* ¿Que es el club del lector? */
+
+.index-club-align{
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+/* ¿Como funciona? */
+
+.index-hiw-align{
+ 
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+
+/* Unete al club */
+
+
+
+.index-join-align{
+  width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.index-join-form-align{
+  text-align: left;
+}
+
+.index-join-form-title{
+  text-align: left;
+}
+
+.form-button{
+  background-color: #FF5037;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.index-join-form-input{   
+width: 90%;
+height: 40px ;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.index-join-form-label{
+  position: relative;
+  top: 22px;
+  
+  color: transparent;
+}
+
+.index-join-form-paragraph-align{
+  width: 100%;
+  font-family:'Montserrat' ;
+  font-size: 0.6em;
+  font-weight: 400;
+
+}
+
+
+a{
+color: #FF5037;
+}
+
+p a:hover{
+  color: rgb(255,80,50,0.5);
+  }
+
+p b{
+  
+  font-weight: 700;
+}
+
+/* Footer */
+
+footer{
+  background-color: #433A44;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px auto;
+  margin-top: 50px;
+  border-top: 50px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+}
+
+footer a{
+  color: #FFFFFF;
+
+}
+
+footer a:hover{
+  color: #FF5037;
+} 
+
+
+
+.grid-footer{
+  
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  font-size: 10px;
+}
+
+.grid2-footer{
+  font-size: 10px;
+}
+
+.footer-hide-span{
+  display: none;
+}
+
+.footer-social-margin{
+  margin-bottom: 30px;
+}
+
+.anchor-div{
+  position: relative;
+}
+
+.anchor{
+  position: absolute;
+  right: 10px;
+  font-size: 30px;
+bottom: -20px;
+}
+
+/* NUESTROS CLUBES DE LECTURA */
+
+.cdl-container-fit{
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.cdl-img{
+  width: 100%;
+  max-width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: -25px;
+}
+
+.cdl-h2{
+  text-align: center;
+  font-weight: 400;
+  position: relative;
+
+}
+
+.nav-bold-italic{
+  font-style: italic;
+  font-weight: 700;
+}
+
+.cdl-h2-guion{
+  font-size: 50px;
+  font-weight: bolder;
+  position: relative;
+  bottom: -9px;
+  margin-right: 5px;
+}
+
+.cdl-h3{
+  
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.cdl-container-element{
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/*  Lecturas */
+
+
+
+.lecturas-index a{
+  color: #020F14;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  
+}
+
+.lecturas-index a:hover{
+  color: rgba(2, 15, 20, 0.5);
+  
+}
+
+
+.lecturas-content-box{
+  width: 70%;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.lecturas-box{
+  background-color: white;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 10px;
+  
+ 
+}
+
+.lecturas-box-img{
+  max-width: 100%;
+  width: 100%;
+}
+
+.lecturas-box img{
+  max-width: 100%;
+}
+
+.lecturas-box-padding{
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+}
+
+/* Detalle lecturas */
+
+blockquote{
+  background-color: #E2E3E3 ;
+  padding: 10px;
+  border-left: #020F14 solid 4px;
+  border-right: #020F14 solid 4px;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.detalle-video-title{
+  text-transform: uppercase;
+}
+
+.detalle-video-title-span{
+  font-size: larger;
+}
+
+.migas-inactive{
+  color: rgb(2, 15, 20);
+  font-family: "Montserrat";
+
+}
+
+.migas-active{
+  color: rgba(2, 15, 20, 0.5);
+  font-family: "Montserrat";
+  
+}
+
+.migas-align{
+  text-align: center;
+}
+
+.detalles-content-fit{
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.title-list{
+  list-style: none;
+  font-weight: 700;
+  border-bottom: #020F14 solid 1px;
+  margin-left: -40px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.detalle-list{
+  list-style: none;
+  margin-left: -20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.detalle-h4{
+  font-size: 1.5em;
+}
+
+.detalle-italic{
+  font-style: italic;
+}
+
+.img-rounded{
+  border-radius: 50%;
+  margin: 5px;
+  width: 150px;
+  float: left;
+ /*  shape-outside: circle(50%); */
+ shape-outside: margin-box;
+}
+
+
+.video-responsive{
+  max-width: 100%;
+  border: 0px;
+}
+
+.cdl-container-element a{
+  color: #020F14;
+}
+
+.cat-img{
+  height: 100px;
+  border-radius: 50px;
+  max-width: 100% !important;
+}
+
+.cat-img-destacada{
+  height: 100px;
+  max-width: 100% !important;
+}
+
+
+/* @media (min-width: 800px) */
+
+@media (min-width: 800px){
+  
+  .header-column{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+   }
+   
+   .login-absolute{
+      
+      position: absolute;
+      top: 10px;
+      right: 20px;
+     
+  }
+
+  menu{
+      display: flex;
+      padding-top: 20px;
+  }
+
+  .margin-top-responsive{
+      padding-top: 0px;
+      text-align: left;
+  }
+
+  .logo-footer{
+    text-align: center;
+    background-color: #E2E3E3;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    width: 240px;
+    height: 100px;
+    margin: auto;
+  }
+
+  .index-club-align{
+      width: 600px;
+      margin-bottom: 50px;
+  }
+
+  .index-img{
+      width: 100px;
+  }
+
+  .cat-img{
+      height: 100px;
+      border-radius: 50px;
+      max-width: 100% !important;
+  }
+
+  .index-hiw-grid{
+      width: 700px;
+      margin-left:auto;
+      margin-right:auto;
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+   }
+
+   .index-cat-grid{
+      width: 700px;
+      margin-left:auto;
+      margin-right:auto;
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+   }
+
+   .index-club-grid{
+      width: 750px;
+      margin-left:auto;
+      margin-right:auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+     
+   }
+
+   .grid-footer{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      font-size: 10px;
+      text-align:left ;
+      
+   }
+
+   .grid2-footer{
+       font-size: 10px;
+   }
+   
+   .footer-hide-span{
+      display:inline-block;
+      margin-left: 5px;
+      margin-right: 5px;
+   }
+   
+   .grid-footer-textalign-right{
+      display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+       
+   }
+
+   .footer-social-margin{
+       display: flex;
+     
+   }
+
+  /*  Clubes temáticos */
+
+  .cdl-container-fit{
+      width: 80%;
+      margin-left:auto;
+      margin-right:auto;
+  }
+
+  .cdl-grid-pc{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cdl-container-element{
+      width: 90%;
+      margin-left:auto;
+      margin-right:auto;
+      margin-bottom: 10px;
+  }
+   
+/*  Lecturas */
+
+
+.lecturas-content-fit-section1{
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+}  
+.lecturas-content-fit-section2{
+    width: 90%;
+    margin-left:auto;
+  margin-right:auto;
+   border-top: 2px solid #020F14;
+   display: grid;
+   grid-template-columns: 220px auto;
+}
+
+.lecturas-box-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 
+
+}
+
+.lecturas-content-box{
+  width: 100%;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.lecturas-box{
+  background-color: white;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 10px;
+ 
+}
+.lecturas-box-margin-horizontal{
+  margin-right: 10px;
+}
+
+.lecturas-box-padding{
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+  min-height: 50px;
+}
+
+/* Detalle lecturas */
+
+.detalle-grid{
+  display: grid;
+  grid-template-columns: 400px auto;
+ 
+}
+
+.detalle-left-column-grid{
+  width: 90%;
+}
+
+.detalle-right-column-grid{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.migas-align{
+  margin-top: 50px;
+  text-align: left;
+}
+
+.detalles-justify{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.detalles-content-fit{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-responsive{
+  width: 100%;
+
+}
+/* Fin del responsive */
+
+}
+

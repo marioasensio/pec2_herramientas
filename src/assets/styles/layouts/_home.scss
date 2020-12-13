@@ -473,6 +473,15 @@ blockquote{
   max-width: 100% !important;
 }
 
+.logo-footer{
+  text-align: center;
+  background-color: #E2E3E3;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  width: 240px;
+  height: 100px;
+  margin: auto;
+}
+
 
 /* @media (min-width: 800px) */
 

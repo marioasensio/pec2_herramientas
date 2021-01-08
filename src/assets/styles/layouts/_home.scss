@@ -1,40 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat&display=swap');
 
-/* carrousel */
-
-div.carousel-container {
-
-}
-div.carousel-container > * {
-	display: inline-block;
-	vertical-align: middle;
-}
-div.carousel-container > button {
-	color: transparent;
-	border: 0px;
-	background-color: #FF5037;
-	height: 28px;
-	width: 17px;
-}
-div.carousel-container > button:last-of-type {
-	background-color: #433A44;
-}
-
-	figure.carousel {
-		height: 256px;
-		width: 256px;
-		overflow: hidden;
-	}
-		figure.carousel ul {
-			list-style-type: none;
-			margin: 0px; padding: 0px;
-			width: 1000%;
-		}
-
-		figure.carousel ul li {
-			display: inline-block;
-		}
 
 /* Ajustes generales */
 

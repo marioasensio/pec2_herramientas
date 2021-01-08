@@ -10,7 +10,6 @@
     "build": "npm-run-all clean parcel:build",
     "test": "echo 'Everything is working as expected ✅\nStart working on your project by running \\033[1mnpm run dev\\033[0m'"
   },
-  
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
@@ -23,5 +22,7 @@
     "rimraf": "^2.7.1",
     "sass": "^1.30.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "autoprefixer": "^9.8.6"
+  }
 }

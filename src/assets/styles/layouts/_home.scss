@@ -1,3 +1,39 @@
+
+/* carrousel */
+
+div.carousel-container {
+
+}
+div.carousel-container > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+div.carousel-container > button {
+	color: transparent;
+	border: 0px;
+	background-color: #FF5037;
+	height: 28px;
+	width: 17px;
+}
+div.carousel-container > button:last-of-type {
+	background-color: #433A44;
+}
+
+	figure.carousel {
+		height: 256px;
+		width: 256px;
+		overflow: hidden;
+	}
+		figure.carousel ul {
+			list-style-type: none;
+			margin: 0px; padding: 0px;
+			width: 1000%;
+		}
+
+		figure.carousel ul li {
+			display: inline-block;
+		}
+
 /* Ajustes generales */
 
 .clip-footer{
@@ -368,6 +404,12 @@ bottom: -20px;
   width: 100%;
 }
 
+.biblioteca-img{
+  max-width: 100%;
+  width: 70%;
+  margin-top: -10%;
+}
+
 .lecturas-box img{
   max-width: 100%;
 }
@@ -526,6 +568,11 @@ blockquote{
 
   .index-img{
       width: 100px;
+      transition: width 2s;
+  }
+
+  .index-img:hover{
+    width: 150px;
   }
 
   .cat-img{
